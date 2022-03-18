@@ -1,0 +1,17 @@
+.companyHeader {
+  margin: 20px;
+  display: flex;
+  color: gray;
+  text-decoration: underline;
+  justify-content: flex-end;
+}
+
+.companyLogo {
+  display: flex;
+  font-size: 40px;
+  margin: 20px;
+  font-weight: 700;
+  justify-content: start;
+}
+
+
