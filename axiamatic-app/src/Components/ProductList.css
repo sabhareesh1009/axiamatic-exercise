@@ -1,0 +1,25 @@
+.productsList {
+  height: 175px;
+  width: 150px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px rgb(236, 235, 235);
+  margin: 20px;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.addIcon {
+  height: 60px !important;
+  width: 60px !important;
+  padding: 10px;
+  color: #908e8ebf;
+  background-color: #d3d3d33b;
+  border: 1px lightgray;
+  border-radius: 5px !important;
+}

@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  color: #8b8a8ac4;
+  text-decoration: underline;
+  justify-content: flex-end;
+  padding: 2rem 4rem;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-left: 8rem;
+  padding-bottom: 6rem;
+  color: #40454a;
+}
+
+.container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1080px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px !important;
+    height: 100vh !important;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 1080px !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1180px !important;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .container {
+    max-width: 1080px !important;
+  }
+}

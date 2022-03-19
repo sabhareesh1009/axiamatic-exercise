@@ -1,14 +1,10 @@
 import './App.css';
-import ProductSearch from './Components/ProductSearch';
+import Product from './Components/Product';
 
 function App() {
   return (
-    <div className="App">
-      <div className="companyHeader">
-        Exit Console
-      </div>
-      <div className="companyLogo">axiamatic</div>
-     <ProductSearch />
+    <div className="app">
+      <Product />
     </div>
   );
 }

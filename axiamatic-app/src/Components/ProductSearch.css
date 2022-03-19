@@ -1,4 +1,76 @@
 .productSearch {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+  .productSearch {
+    flex-direction: row;
+  }
+}
+
+.productList {
+  display: flex;
+}
+
+.productsContainer {
+  display: column;
+  justify-content: space-between;
+}
+
+.productCount {
+  display: flex;
+  justify-content: center;
+  color: rgb(189, 184, 184);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.productSelect {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  padding: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .productSelect {
+    margin-left: 50px;
+  }
+}
+
+.indexBotton {
+  color: #fff !important;
+  background-color: skyblue !important;
+  font-size: 9.5px !important;
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
+  width: 15px !important;
+  border-radius: 5px !important;
+}
+
+.searchHeader {
+  margin-bottom: 20px !important;
+  font-size: 25px !important;
+  line-height: 1.2;
+  color: #40454a;
+}
+
+.searchDesc {
+  color: #40454a;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: normal;
+  margin-bottom: 20px !important;
+}
+
+.searchInput {
+  height: 35px !important;
+  padding: 15px !important;
+  border: none;
+  background-color: lightgray;
+  border-radius: 5px;
+  outline-color: lightblue;
+}
