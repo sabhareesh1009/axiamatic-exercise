@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  flex-direction: column;
 }
 
 .addIcon {
@@ -22,4 +23,38 @@
   background-color: #d3d3d33b;
   border: 1px lightgray;
   border-radius: 5px !important;
+}
+
+.selectedlogo {
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.selectedProduct {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.productName {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  padding-top: 10px !important;
+  color: #111 !important;
+}
+
+.remove {
+  color: red;
+  font-size: 12px !important;
+  display: flex;
+  font-weight: 600 !important;
+  margin-top: 35px !important;
+  cursor: pointer;
+  align-items: center
+}
+
+.removeCircle {
+  font-size: 20px !important;
+  padding-right: 5px !important;
 }

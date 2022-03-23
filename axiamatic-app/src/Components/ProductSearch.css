@@ -21,10 +21,18 @@
 
 .productCount {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   color: rgb(189, 184, 184);
   font-size: 15px;
   font-weight: 500;
+  margin-left: 20px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .productCount {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .productSelect {
@@ -43,12 +51,14 @@
 
 .indexBotton {
   color: #fff !important;
-  background-color: skyblue !important;
+  background-color: #285bc2cf !important;
   font-size: 9.5px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
   width: 15px !important;
   border-radius: 5px !important;
+  text-transform: none !important;
+  background-color: linear-gradient(90deg, #285bc2cf, red) !important;
 }
 
 .searchHeader {
@@ -65,12 +75,94 @@
   white-space: normal;
   margin-bottom: 20px !important;
 }
-
 .searchInput {
   height: 35px !important;
   padding: 15px !important;
+  padding-left: 25px !important;
   border: none;
-  background-color: lightgray;
+  background-color: lightgray !important;
   border-radius: 5px;
-  outline-color: lightblue;
+  outline-color: #285bc2cf !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  font-weight: 600 !important;
+  min-width: 340px !important;
+}
+
+.searchInput:focus {
+  background-color: #fff !important;
+}
+
+.searchIcon {
+  position: absolute;
+  margin-left: 8px !important;
+  margin-top: 29.5px !important;
+  font-size: 16px !important;
+  color: gray !important;
+}
+
+.nextButton {
+  background-color: #285bc2cf !important;
+  color: white !important;
+  font-size: 12px;
+  text-transform: none !important;
+  height: 35px !important;
+  min-width: 340px !important;
+}
+
+.nextDisabled {
+  background-color: #3b518acf !important;
+  opacity: 0.5 !important;
+}
+
+.nextButton > small {
+  font-weight: 500 !important;
+}
+
+.dropdownList {
+  position: absolute;
+  background-color: white !important;
+  max-height: 240px !important;
+  width: 340px !important;
+  z-index: 99;
+  overflow: auto !important;
+  border-radius: 5px !important;
+  overflow-y: auto !important;
+  top: 63rem !important;
+}
+
+@media screen and (min-width: 768px) {
+  .dropdownList {
+    top: 35rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .dropdownList {
+    top: 35rem !important;
+  }
+}
+
+.productInfo {
+  display: flex !important;
+  margin-top: 10px !important;
+  padding: 10px !important;
+  color: black !important;
+  font-size: 14px !important;
+  border-radius: 5px !important;
+  font-weight: 700;
+  align-items: center !important;
+  height: 35px !important;
+  cursor: pointer;
+}
+
+.productInfo:hover {
+  background-color: #285bc2cf !important;
+  color: white !important;
+}
+
+.productlogo {
+  height: 25px !important;
+  width: 25px !important;
+  margin-right: 10px !important;
 }
